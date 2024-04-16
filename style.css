@@ -1214,12 +1214,12 @@ h2 {
 
     h1{
       font-size: 35px;
-      line-height: 58px;
+      line-height: 45px;
     }
     h2 {
-      font-size: 35px;
+      font-size: 32px;
       margin-bottom: 15%;
-      line-height: 45px;
+      line-height: 35px;
   }
     .what-cards {
       flex-wrap: wrap;
@@ -1291,8 +1291,8 @@ h2 {
       width: auto;
     }
     .input label, .input-text label {
-      font-family: 'Lato', sans-serif;
-      font-size: 23px;
+      font-size: 21px;
+      margin-bottom: 5px;
     }
     .input input::placeholder,
     .input-text textarea::placeholder{
