@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monodata</title>
+
+    <link rel="stylesheet" href="tools.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <!-- Шрифт 1 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Шрифт 2 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Шрифт 3 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <section class="main">
+      <header class="fixed-header">
+        <nav class="menu">
+          <div class="logo">
+            <a href="/">
+              <img
+                class="logo-img"
+                src="../img/monodata-logo.png"
+                alt="monodata-logo"
+              />
+            </a>
+          </div>
+          <ul class="nav-menu">
+            <li class="nav-menu-item"><a href="/">Головна</a></li>
+            <li class="nav-menu-item">
+              <a href="../page_rent/rent.html">Оренда серверів</a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="../page_tools/tools.html">Інструменти</a>
+            </li>
+          </ul>
+          <div class="menu-button">
+            <a href="#contact-form" class="button">Замовити</a>
+          </div>
+        </nav>
+
+
+        <nav class="header__nav nav-bar">
+          <div class="toggle-menu">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+          </div>
+          <ul class="nav-list">
+            <li class="nav-list-item"><a href="/">Головна</a></li>
+            <li class="nav-list-item"><a href="/page_rent/rent.html">Оренда серверів</a></li>
+            <li class="nav-list-item">
+              <a href="/page_tools/tools.html">Інструменти</a>
+            </li>
+
+          </ul>
+          <a href="#contact-form" class="nav-list-item-button button">Замовити</a>
+
+        </nav>
+
+
+
+      </header>
+
+      <div class="main-content tools-main-content conteiner">
+        <div class="main-content-left">
+          <h1>Інструменти</h1>
+          <h2>
+            Способи автоматизації <br />
+            вашого бізнесу
+          </h2>
+          <div class="main-content-button">
+            <a href="#contact-form" class="button">Замовити</a>
+          </div>
+        </div>
+        <div class="main-content-right">
+          <img src="../img/221.png" alt="main-content-photo" />
+        </div>
+      </div>
+    </section>
+
+    <section class="tools-cards conteiner">
+      <div class="tools-card">
+        <div class="tools-card-img">
+          <img src="../img/tools/master.png" alt="MASTER: Бухгалтерія" />
+        </div>
+        <div class="tools-card-title">MASTER: Бухгалтерія</div>
+        <div class="tools-card-descr">
+          Програмний продукт для ведення бухгалтерського та податкового обліку
+          широкого кола підприємств
+        </div>
+        <div class="tools-card-button">
+          <button class="button-order">Детальніше</button>
+        </div>
+      </div>
+
+      <div class="tools-card">
+        <div class="tools-card-img">
+          <img src="../img/tools/server.png" alt="Хостинг" />
+        </div>
+        <div class="tools-card-title">Хостинг</div>
+        <div class="tools-card-descr">
+          Розміщення управлінської інформації на надійному віддаленому сервері в
+          Україні та за кордоном
+        </div>
+        <div class="tools-card-button">
+          <button class="button-order">Детальніше</button>
+        </div>
+      </div>
+
+      <div class="tools-card">
+        <div class="tools-card-img">
+          <img src="../img/tools/master.png" alt="Телеграм чат-бот" />
+        </div>
+        <div class="tools-card-title">Телеграм чат-бот</div>
+        <div class="tools-card-descr">
+          Автоматизований чат направлений на легку взаємодію облікових систем з
+          користувачами
+        </div>
+        <div class="tools-card-button">
+          <button class="button-order">Детальніше</button>
+        </div>
+      </div>
+
+      <div class="tools-card">
+        <div class="tools-card-img">
+          <img src="../img/tools/client.png" alt="Обмін з клієнт банком" />
+        </div>
+        <div class="tools-card-title">Обмін з клієнт банком</div>
+        <div class="tools-card-descr">
+          Тісна інтеграція системи клієнт-банк з обліковою системою
+        </div>
+        <div class="tools-card-button">
+          <button class="button-order">Детальніше</button>
+        </div>
+      </div>
+      <div class="tools-card">
+        <div class="tools-card-img">
+          <img
+            src="../img/tools/admin.png"
+            alt="Системне адміністрування серверів"
+          />
+        </div>
+        <div class="tools-card-title">Системне адміністрування серверів</div>
+        <div class="tools-card-descr">
+          Налаштування та підтримка працездатності серверів
+        </div>
+        <div class="tools-card-button">
+          <button class="button-order">Детальніше</button>
+        </div>
+      </div>
+
+      <div class="tools-card">
+        <div class="tools-card-img">
+          <img src="../img/tools/data.png" alt="Термінал збору даних" />
+        </div>
+        <div class="tools-card-title">Термінал збору даних</div>
+        <div class="tools-card-descr">
+          Зручне, точне отримання облікових даних з подальшою моментальною
+          передачею в облікову систему
+        </div>
+        <div class="tools-card-button">
+          <button class="button-order">Детальніше</button>
+        </div>
+      </div>
+
+      <div class="tools-card">
+        <div class="tools-card-img">
+          <img src="../img/tools/security.png" alt="Охорона праці" />
+        </div>
+        <div class="tools-card-title">Охорона праці</div>
+        <div class="tools-card-descr">
+          Комплексне рішення з охорони праці для широкого кола підприємств
+        </div>
+        <div class="tools-card-button">
+          <button class="button-order">Детальніше</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="accounting conteiner">
+      <h2 class="title">MASTER: Бухгалтерія</h2>
+      <div class="accounting-cards">
+        <div class="accounting-card">
+          <div class="accounting-card-img">
+            <img src="../img/accounting/compatibility.png" alt="accounting" />
+          </div>
+          <div class="accounting-card-text">
+            Сумісність із будь-якою операційною системою: Windows, Linux, iOS,
+            Android тощо
+          </div>
+        </div>
+
+        <div class="accounting-card">
+          <div class="accounting-card-img">
+            <img src="../img/accounting/accounting.png" alt="accounting" />
+          </div>
+          <div class="accounting-card-text">
+            Облік від бухгалтерії до CRM забезпечує модульна структура й єдина
+            платформа MASTER
+          </div>
+        </div>
+
+        <div class="accounting-card">
+          <div class="accounting-card-img">
+            <img src="../img/accounting/devices.png" alt="devices" />
+          </div>
+          <div class="accounting-card-text">
+            В якості клієнтського пристрою може використовуватися комп'ютер,
+            мобільний телефон, планшет
+          </div>
+        </div>
+
+        <div class="accounting-card">
+          <div class="accounting-card-img">
+            <img src="../img/accounting/doc.png" alt="doc" />
+          </div>
+          <div class="accounting-card-text">
+            Відповідає вимогам нормативних документів із технічного захисту
+            інформації Г-3 і СЕД для роботи з СЕВ ОВВ
+          </div>
+        </div>
+
+        <div class="accounting-card">
+          <div class="accounting-card-img">
+            <img src="../img/accounting/analysis.png" alt="analysis" />
+          </div>
+          <div class="accounting-card-text">
+            Облік у розподілених структурах, консолідація звітності,
+            корпоративні схеми аналізу даних
+          </div>
+        </div>
+
+        <div class="accounting-card">
+          <div class="accounting-card-img">
+            <img src="../img/accounting/cloud.png" alt="cloud" />
+          </div>
+          <div class="accounting-card-text">
+            Доступні як хмарне (SaaS) рішення для браузера, так і стаціонарне —
+            для інсталяції на пристрій
+          </div>
+        </div>
+
+        <div class="accounting-card">
+          <div class="accounting-card-img">
+            <img src="../img/accounting/law.png" alt="law" />
+          </div>
+          <div class="accounting-card-text">
+            Повна відповідність чинному законодавству України й облік за
+            Міжнародними стандартами фінансової звітності (МСФЗ)
+          </div>
+        </div>
+
+        <div class="accounting-card">
+          <div class="accounting-card-img">
+            <img src="../img/accounting/integration.png" alt="integration" />
+          </div>
+          <div class="accounting-card-text">
+            ОІнтеграція з торговельним онлайн-майданчиком SmartTender і сервісом
+            електронного документообігу Signy
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="price conteiner">
+      <h2>Вартість програмних продуктів і послуг</h2>
+      <div class="price-cards">
+        <div class="price-card">
+          <div class="price-card-title">КОРОБКОВЕ РІШЕННЯ</div>
+          <div class="price-card-descr">
+            локальний програмний продукт
+            <ul class="price-card-list">
+              <li>Win-клієнт і Web-клієнт RMD</li>
+              <li>безплатний експрес SQL-сервер (до 10 ліцензій)</li>
+              <li>багатооб'єктний облік</li>
+              <li>іменні та конкурентні ліцензії на вибір</li>
+              <li>покрокові інструкції для легкого запуску</li>
+            </ul>
+          </div>
+          <div class="price-card-sum">
+            від <span>13200</span> грн <br />
+            з урахуванням ПДВ 20%
+          </div>
+        </div>
+
+        <div class="price-card">
+          <div class="price-card-title">ОРЕНДА ПРОГРАМИ</div>
+          <div class="price-card-descr">
+            програмний продукт у хмарі
+            <ul class="price-card-list">
+              <li>техпідтримка</li>
+              <li>будь-який режим підключення</li>
+              <li>автооновлення</li>
+              <li>дата центр у Німеччині (Microsoft Azure)</li>
+              <li>резервне копіювання</li>
+            </ul>
+          </div>
+          <div class="price-card-sum">
+            від <span>960</span> грн/місяць <br />
+            з урахуванням ПДВ 20%
+          </div>
+        </div>
+
+        <div class="price-card">
+          <div class="price-card-title">ПОСЛУГИ</div>
+          <div class="price-card-descr">
+            консультаційні послуги
+            <ul class="price-card-list">
+              <li>налаштування користувачів</li>
+              <li>налаштування інтерфейсу</li>
+              <li>формування довідників</li>
+              <li>налаштування облікової політики</li>
+              <li>запуск типового функціоналу</li>
+            </ul>
+          </div>
+          <div class="price-card-sum">
+            від <span>600</span> грн/година <br />
+            з урахуванням ПДВ 20%
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="exchange conteiner">
+      <h2>Обмін з клієнт банком</h2>
+      <div class="exchange-content">
+        <div class="exchange-content-img">
+          <img src="../img/231-01.png" alt="exchange" />
+        </div>
+        <div class="exchange-content-text">
+          <div class="exchange-content-text__title">
+            Функціональні можливості:
+          </div>
+          <div class="exchange-content-text__list">
+            <div class="exchange-content-text__list-item">
+              Автоматичний пошук угод: рахунки покупця, рахунки постачальника.
+              (Додатковий функціонал, оцінка в кінці сторінки)
+            </div>
+            <div class="exchange-content-text__list-item">
+              Автоматичне створення нових контрагентів із заповненням усіх
+              доступних параметрів (розрахунковий рахунок, код ЄДРПОУ та інші)
+            </div>
+            <div class="exchange-content-text__list-item">
+              Автоматичний пошук контрагентів за кодами ЄДРПОУ
+            </div>
+            <div class="exchange-content-text__list-item">
+              Завантаження в BAS платіжних доручень з файлів вивантаження
+              системи «Клієнт-Банк»
+            </div>
+            <div class="exchange-content-text__list-item">
+              Вивантаження платіжних доручень з BAS в "Клієнт-Банк»
+            </div>
+            <div class="exchange-content-text__list-item">
+              Налаштування обміну з «Клієнт-банком» будь-якого банку
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="steps conteiner">
+      <h2>Покроково</h2>
+      <div class="steps-content">
+        <div class="steps-conten-left">
+          <div class="step-2">
+            <div class="step-title">Завантаження виписки з "Клієнт-банк"</div>
+            <div class="step-descr">
+              Вивантажений файл з клієнт-банку завантажується обробкою в BAS на
+              закладці "Імпорт виписки". Вказується:
+              <ul>
+                <li>дата виписки;</li>
+                <li>назва клієнт-банку;</li>
+                <li>організація;</li>
+                <li>розрахунковий рахунок,</li>
+                <li>шлях до вивантаженого з клієнт-банку файлу.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <img class="step-line" src="../img/line.png" alt="line" />
+        <div class="steps-conten-rigt">
+          <div class="step-1">
+            <div class="step-title">Підключення обробки</div>
+            <div class="step-descr">
+              Обробка підключається, як зовнішня, без зміни типової
+              конфігурації.
+            </div>
+          </div>
+          <div class="step-3">
+            <div class="step-title">Налаштування обробки</div>
+            <div class="step-descr">
+              Налаштування обробки виконується на закладці "Налаштування".
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cost-settings conteiner">
+      <h2>Вартість налаштування</h2>
+      <div class="price-cards">
+        <div class="price-card">
+          <div class="price-card-title">
+            Функціонал завантаження виписок з «Клієнт-банку» в BAS
+          </div>
+          <div class="price-card-sum">
+            від <span>1800</span> грн <br />
+            з урахуванням ПДВ 20%
+          </div>
+        </div>
+
+        <div class="price-card">
+          <div class="price-card-title">
+            Функціонал вивантаження платіжних доручень з BAS в "Клієнт-банк"
+          </div>
+          <div class="price-card-sum">
+            від <span>2800</span> грн <br />
+            з урахуванням ПДВ 20%
+          </div>
+        </div>
+
+        <div class="price-card">
+          <div class="price-card-title">
+            Реалізація процедури автоматичного заповнення угоди (рахунки
+            покупця, рахунки постачальника)
+          </div>
+          <div class="price-card-sum">
+            від <span>2800</span> грн <br />
+            з урахуванням ПДВ 20%
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="system-adm">
+      <h2 class="conteiner">Системне адміністрування серверів</h2>
+      <div class="system-adm-content">
+        <!-- <div class="system-adm-content-left">
+            <img src="../img/2794206.png" alt="">
+        </div> -->
+        <div class="system-adm-content-right">
+          <div class="system-adm-items">
+          <div class="system-adm-item">
+            Первинна настройка і монтаж серверів
+          </div>
+          <div class="system-adm-item">
+            Підключення до інженерних мереж, до мереж передачі даних
+          </div>
+          <div class="system-adm-item">
+            Рішення інцидентів, що пов’язані з обладнанням
+          </div>
+          <div class="system-adm-item">Ремонт і модернізація обладнання</div>
+          <div class="system-adm-item">
+            Взаємодія з вендором обладнання з питань інцидентів
+          </div>
+          <div class="system-adm-item">
+            Підтримка операційних систем серверів сімейства Windows Server та
+            Linux
+          </div>
+          <div class="system-adm-item">
+            Установка та базове налаштування операційних систем під час
+            інсталяції
+          </div>
+          <div class="system-adm-item">
+            Налаштування операційних систем під час експлуатації серверів
+          </div>
+          <div class="system-adm-item">
+            Взаємодія з вендором обладнання з питань інцидентів
+          </div>
+          <div class="system-adm-item">
+            Рішення інцидентів, що виникають під час роботи системи, служб,
+            сервісів
+          </div>
+          <div class="system-adm-item">
+            Відновлення працездатності операційної системи після збоїв
+          </div>
+          <div class="system-adm-item">
+            Контроль відомих вразливостей і оновлення операційних систем
+          </div>
+          <div class="system-adm-item">Резервне копіювання критичних даних</div>
+          <div class="system-adm-item">
+            Підтримка серверних і мережевих сервісів
+          </div>
+          <div class="system-adm-item">
+            Здійснення моніторингу доступності обладнання і сервісів, що
+            працюють
+          </div>
+          <div class="system-adm-item">
+            Настроювання, адміністрування серверних служб і мережевих сервісів
+            під час роботи, управління ними
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-form conteiner">
+      <h2>Замовити послугу</h2>
+      <form id="form-req" class="form" action="">
+        <div class="form-inputs">
+          <div class="input-contact">
+            <div class="input">
+              <label for="name">Ім’я <span>*</span></label>
+              <input id="name" type="text" placeholder="Ваше ім’я" required />
+            </div>
+            <div class="input">
+              <label for="sername">Прізвище <span>*</span></label>
+              <input
+                id="sername"
+                type="text"
+                placeholder="Ваше прізвище"
+                required
+              />
+            </div>
+            <div class="input">
+              <label for="phone">Номер телефону <span>*</span></label>
+              <input
+                id="phone"
+                type="text"
+                placeholder="Ваш контактний номер телефону"
+                required
+              />
+            </div>
+          </div>
+          <div class="input-text">
+            <label for="req">Коротко опишіть свій запит</label>
+            <textarea
+              name=""
+              id="req"
+              cols="30"
+              rows="10"
+              placeholder="Коротко опишіть свій запит у цьому полі"
+            ></textarea>
+          </div>
+        </div>
+        <div class="form-button">
+          <button class="button">Надіслати запит</button>
+        </div>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-content conteiner">
+        <div class="footer-content-logo">
+          <div class="logo">
+            <a href="/">
+              <img src="../img/monodata-logo.png" alt="monodata-logo" />
+            </a>
+          </div>
+          <p>
+            Monodata - оренда серверних ресурсів для автоматизації вашого
+            бізнесу!
+          </p>
+          <div class="footer-content-social">
+            <div class="social-icons">
+              <div class="social-icon">
+                <a href="">
+                  <img src="../img/InstagramLogo.png" alt="InstagramLogo" />
+                </a>
+              </div>
+              <div class="social-icon">
+                <a href="">
+                  <img src="../img/TwitterLogo.png" alt="TwitterLogo" />
+                </a>
+              </div>
+              <div class="social-icon">
+                <a href="">
+                  <img src="../img/WhatsappLogo.png" alt="WhatsappLogo" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-content-main">
+          <nav class="footer-menu">
+            <p class="footer-menu-title">Меню</p>
+            <ul class="nav-menu-footer">
+              <li class="nav-menu-item"><a href="../index.html">Головна</a></li>
+              <li class="nav-menu-item">
+                <a href="../page_rent/rent.html">Оренда серверів</a>
+              </li>
+              <li class="nav-menu-item">
+                <a href="./tools.css">Інструменти</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="contacts">
+            <p class="footer-menu-title">Контакти</p>
+            <div class="location">
+              <img src="../img/MapPin.png" alt="MapPin" />
+              <div class="adress">
+                Україна, м. Київ, <br />вул. Бессарабська, 41-б
+              </div>
+            </div>
+
+            <div class="phone">
+              <img src="../img/phone.png" alt="MapPin" />
+              <a href="tel:+000000000000000">+000000000000000</a>
+            </div>
+            <div class="mail">
+              <img src="../img/Envelope.png" alt="MapPin" />
+              <a href="mailto:оооооооооо@gmail.com">оооооооооо@gmail.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="footer-rights">© 2023 Всі права захищені.</p>
+    </footer>
+  </body>
+</html>
