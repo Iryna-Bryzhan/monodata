@@ -31,6 +31,10 @@
       rel="stylesheet"
     />
 
+        <!-- aos.css -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
     <script src="index.js" defer></script>
   </head>
   <body>
@@ -76,7 +80,7 @@
 
       <div class="main-content rent-main-content conteiner">
         <div class="main-content-left rent-main-content-left">
-          <h1>Оренда серверних<br />
+          <h1 data-aos="fade-left" data-aos-duration="600">Оренда серверних<br />
             ресурсів
           </h1>
           
@@ -84,7 +88,7 @@
             <a href="#contact-form" class="button">Замовити</a>
           </div>
         </div>
-        <div class="main-content-right">
+        <div class="main-content-right"  data-aos="fade-down" data-aos-duration="1000">
           <img src="../img/211.png" alt="main-content-photo" />
         </div>
       </div>
@@ -92,7 +96,7 @@
 
     <section class="server conteiner">
         <div class="server-cards">
-          <div class="server-card">
+          <div class="server-card" data-aos="zoom-in" data-aos-duration="500" >
               <div class="server-card-img">
                   <img src="../img/232-01.png" alt="Віртуальні сервери" />
                 </div>
@@ -106,7 +110,7 @@
             </div>
           </div>
 
-          <div class="server-card">
+          <div class="server-card" data-aos="zoom-in" data-aos-duration="700">
             <div class="server-card-img">
                 <img src="../img/232-05.png" alt="Виділені сервери" />
               </div>
@@ -118,7 +122,7 @@
           </div>
         </div>
 
-        <div class="server-card">
+        <div class="server-card" data-aos="zoom-in" data-aos-duration="900">
             <div class="server-card-img">
                 <img src="../img/232-02.png" alt="Фізичні сервери" />
               </div>
@@ -229,5 +233,11 @@
         <p class="footer-rights">© 2023 Всі права захищені.</p>
     </footer>
 
+       <!-- aos.js -->
+       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+       <script>
+         AOS.init();
+       </script>
   </body>
 </html>
