@@ -194,7 +194,7 @@
 }
 .steps h2,
 .cost-settings h2,
-.system-adm h2{
+.system-adm h2 {
   text-align: center;
 }
 .steps-content {
@@ -311,605 +311,658 @@
 }
 
 @media (min-width: 1500px) {
-    .conteiner {
-      width: 1440px;
-    }
+  .conteiner {
+    width: 1440px;
   }
-  @media (min-width: 1801px) and (max-width: 1900px)  {
-    .system-adm-items {
-        margin-left: 36%;
-      }
+}
+@media (min-width: 1801px) and (max-width: 1900px) {
+  .system-adm-items {
+    margin-left: 36%;
   }
-  @media (min-width: 1750px) and (max-width: 1800px)  {
-    .system-adm-items {
-        margin-left: 38%;
-      }
-      .system-adm-item {
-        font-size: 17px;
-      }
+}
+@media (min-width: 1750px) and (max-width: 1800px) {
+  .system-adm-items {
+    margin-left: 38%;
   }
-  @media (min-width: 1651px) and (max-width: 1750px)  {
-    .system-adm-items {
-        margin-left: 39%;
-      }
-      .system-adm-item {
-        font-size: 16px;
-      }
-      .system-adm-content-right {
-        background-position: -14% -170%;
-    }
+  .system-adm-item {
+    font-size: 17px;
   }
-  @media (min-width: 1551px) and (max-width: 1650px)  {
-    .system-adm-items {
-        margin-left: 40%;
-      }
-      .system-adm-item {
-        font-size: 15px;
-      }
-      .system-adm-content-right {
-        background-position: -20% -200%;
-    }
+}
+@media (min-width: 1651px) and (max-width: 1750px) {
+  .system-adm-items {
+    margin-left: 39%;
   }
-  @media (min-width: 1451px) and (max-width: 1550px)  {
-    .system-adm-items {
-        margin-left: 41%;
-        margin-top: -5%;
-      }
-      .system-adm-item {
-        font-size: 14px;
-      }
-      .system-adm-content-right {
-        margin-top: 10%;
-        background-position: -28% 10%;
-    }
+  .system-adm-item {
+    font-size: 16px;
   }
-  @media (min-width: 1381px) and (max-width: 1450px)  {
-    .system-adm-items {
-        margin-left: 42%;
-        margin-top: -5%;
-      }
-      .system-adm-item {
-        font-size: 14px;
-      }
-      .system-adm-content-right {
-        margin-top: 10%;
-        background-position: -35% 10%;
-    }
+  .system-adm-content-right {
+    background-position: -14% -170%;
   }
+}
+@media (min-width: 1551px) and (max-width: 1650px) {
+  .system-adm-items {
+    margin-left: 40%;
+  }
+  .system-adm-item {
+    font-size: 15px;
+  }
+  .system-adm-content-right {
+    background-position: -20% -200%;
+  }
+}
+@media (min-width: 1451px) and (max-width: 1550px) {
+  .system-adm-items {
+    margin-left: 41%;
+    margin-top: -5%;
+  }
+  .system-adm-item {
+    font-size: 14px;
+  }
+  .system-adm-content-right {
+    margin-top: 10%;
+    background-position: -28% 10%;
+  }
+}
+@media (min-width: 1381px) and (max-width: 1450px) {
+  .system-adm-items {
+    margin-left: 42%;
+    margin-top: -5%;
+  }
+  .system-adm-item {
+    font-size: 14px;
+  }
+  .system-adm-content-right {
+    margin-top: 10%;
+    background-position: -35% 10%;
+  }
+}
 
-  @media (min-width: 1271px) and (max-width: 1380px)  {
-    .system-adm-items {
-        margin-left: 42%;
-        margin-top: -5%;
-      }
-      .system-adm-item {
-        font-size: 14px;
-        width: 75%;
-      }
-      .system-adm-content-right {
-        margin-top: 10%;
-        background-position: -60% 10%;
-    }
-    .system-adm-item::before {
-        top: 7px;
-    }
+@media (min-width: 1271px) and (max-width: 1380px) {
+  .system-adm-items {
+    margin-left: 42%;
+    margin-top: -5%;
   }
-  @media (min-width: 1151px) and (max-width: 1270px)  {
-    .system-adm-items {
-        margin-left: 42%;
-        margin-top: -5%;
-      }
-      .system-adm-item {
-        font-size: 14px;
-        width: 85%;
-      }
-      .system-adm-content-right {
-        margin-top: 10%;
-        background-position: -95% -20%;
-    }
-    .system-adm-item::before {
-        top: 7px;
-    }
-    .system-adm-item:nth-child(11),
-    .system-adm-item:nth-child(12),
-    .system-adm-item:nth-child(13),
-    .system-adm-item:nth-child(14),
-    .system-adm-item:nth-child(15) {
-        width: 80%;
-    }
+  .system-adm-item {
+    font-size: 14px;
+    width: 75%;
   }
-  @media (min-width: 991px) and (max-width: 1151px)  {
-    .system-adm-items {
-        width: 80%;
-        margin: 0 auto;
-      }
-      .system-adm-item {
-        font-size: 16px;
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 100%);
-      }
-      .system-adm-content-right {
-        width: 100%;
-        margin: 5% auto;
-background-position: center;    }
-    .system-adm-item::before {
-        top: 7px;
-    }
-    .system-adm-item:nth-child(11),
-    .system-adm-item:nth-child(12),
-    .system-adm-item:nth-child(13),
-    .system-adm-item:nth-child(14),
-    .system-adm-item:nth-child(15) {
-        left: 0px;
-    }
+  .system-adm-content-right {
+    margin-top: 10%;
+    background-position: -60% 10%;
   }
+  .system-adm-item::before {
+    top: 7px;
+  }
+}
+@media (min-width: 1151px) and (max-width: 1270px) {
+  .system-adm-items {
+    margin-left: 42%;
+    margin-top: -5%;
+  }
+  .system-adm-item {
+    font-size: 14px;
+    width: 85%;
+  }
+  .system-adm-content-right {
+    margin-top: 10%;
+    background-position: -95% -20%;
+  }
+  .system-adm-item::before {
+    top: 7px;
+  }
+  .system-adm-item:nth-child(11),
+  .system-adm-item:nth-child(12),
+  .system-adm-item:nth-child(13),
+  .system-adm-item:nth-child(14),
+  .system-adm-item:nth-child(15) {
+    width: 80%;
+  }
+}
+@media (min-width: 991px) and (max-width: 1151px) {
+  .system-adm-items {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .system-adm-item {
+    font-size: 16px;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.8) 50%,
+      rgba(255, 255, 255, 0.8) 100%
+    );
+  }
+  .system-adm-content-right {
+    width: 100%;
+    margin: 5% auto;
+    background-position: center;
+  }
+  .system-adm-item::before {
+    top: 7px;
+  }
+  .system-adm-item:nth-child(11),
+  .system-adm-item:nth-child(12),
+  .system-adm-item:nth-child(13),
+  .system-adm-item:nth-child(14),
+  .system-adm-item:nth-child(15) {
+    left: 0px;
+  }
+}
 
-  @media (min-width: 767px) and (max-width: 992px)  {
-    .system-adm-items {
-        width: 90%;
-        margin: 0 auto;
-      }
-      .system-adm-item {
-        font-size: 16px;
-        width: 90%;
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 100%);
-      }
-      .system-adm-content-right {
-        margin-top: 5%;
-background-position: center; 
-background-size: 756px;
-   }
-    .system-adm-item::before {
-        top: 7px;
-    }
-    .system-adm-item:nth-child(11),
-    .system-adm-item:nth-child(12),
-    .system-adm-item:nth-child(13),
-    .system-adm-item:nth-child(14),
-    .system-adm-item:nth-child(15) {
-        left: 0px;
-    }
+@media (min-width: 767px) and (max-width: 992px) {
+  .system-adm-items {
+    width: 90%;
+    margin: 0 auto;
   }
-  @media (min-width: 991px) and (max-width: 1200px)  {
-    .tools-card-title {
-        font-size: 25px;
-    }
-    .price-card-title {
-        font-size: 24px;
-        text-align: center;
-
-    }
-    .price-card {
+  .system-adm-item {
+    font-size: 16px;
+    width: 90%;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.8) 50%,
+      rgba(255, 255, 255, 0.8) 100%
+    );
+  }
+  .system-adm-content-right {
+    margin-top: 5%;
+    background-position: center;
+    background-size: 756px;
+  }
+  .system-adm-item::before {
+    top: 7px;
+  }
+  .system-adm-item:nth-child(11),
+  .system-adm-item:nth-child(12),
+  .system-adm-item:nth-child(13),
+  .system-adm-item:nth-child(14),
+  .system-adm-item:nth-child(15) {
+    left: 0px;
+  }
+}
+@media (min-width: 991px) and (max-width: 1200px) {
+  .tools-card-title {
+    font-size: 25px;
+  }
+  .price-card-title {
+    font-size: 24px;
+    text-align: center;
+  }
+  .price-card {
     padding: 30px 20px;
-    }
   }
-  @media (min-width: 768px) and (max-width: 992px)  {
-    .tools-card-title {
-        font-size: 25px;
-    }
-    .price h2 {
-        text-align: center;
-        margin: 3% 0;
-      }
-      .price-cards {
-        flex-wrap: wrap;
-        gap: 30px 5px;
-        margin-bottom: 5%;
-      }
-      .price-card {
-        width: 40%;
-        margin: 0 auto;
-        padding: 30px 22px;
-      }
-      .price-card-title {
-        font-size: 25px;
-        margin-bottom: 10px;
-      }
-      .price-card-descr {
-        font-size: 16px;
-        margin-bottom: 20px;
-      }
-      .price-card-sum {
-        font-size: 16px;
-      }
-      .price-card-sum span {
-        font-size: 35px;
-      }
-      .accounting-card {
-flex-direction: column;
-padding: 3%;
-width: 40%;
-      }
-      .accounting-card-img {
-        margin: 0 10px;
-    }
-      .accounting-card-text {
-        font-family: "Montserrat", sans-serif;
-        font-size: 16px;
-        margin: 10px 0;
-      }
-      .exchange-content {
-        flex-direction: column;
-      }
-      .exchange-content-img{
-        text-align: center;
-      }
-      .exchange-content-img img {
-        max-width: 80%;
-    }
- 
-      .exchange-content-text__title {
-        font-size: 25px;
-      }
- 
-      .exchange-content-text__list-item {
-        font-size: 16px;
-      }
-      
 }
-@media (min-width: 575px) and (max-width: 767px)  {
-    .tools-card {
-        max-width: 45%;
-        padding: 24px 10px;
-    }
-    .tools-card-descr {
-        min-height: 157px;
-    }
-    .accounting-cards {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 16px;
-      }
-      .accounting-card {
-        width: 100%;
-      }
-      .accounting-card-img {
-        margin: 2% 0;
-      }
-      .accounting-card-img img {
-        max-width: 140px;
-      }
-      .accounting-card-text {
-        font-family: "Montserrat", sans-serif;
-        font-size: 16px;
-        margin: 40px 10px;
-      }
+@media (min-width: 768px) and (max-width: 992px) {
+  .tools-card-title {
+    font-size: 25px;
+  }
+  .price h2 {
+    text-align: center;
+    margin: 3% 0;
+  }
+  .price-cards {
+    flex-wrap: wrap;
+    gap: 30px 5px;
+    margin-bottom: 5%;
+  }
+  .price-card {
+    width: 40%;
+    margin: 0 auto;
+    padding: 30px 22px;
+  }
+  .price-card-title {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .price-card-descr {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .price-card-sum {
+    font-size: 16px;
+  }
+  .price-card-sum span {
+    font-size: 35px;
+  }
+  .accounting-card {
+    flex-direction: column;
+    padding: 3%;
+    width: 40%;
+  }
+  .accounting-card-img {
+    margin: 0 10px;
+  }
+  .accounting-card-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  .exchange-content {
+    flex-direction: column;
+  }
+  .exchange-content-img {
+    text-align: center;
+  }
+  .exchange-content-img img {
+    max-width: 80%;
+  }
 
-      .price h2 {
-        text-align: center;
-        margin: 3% 0;
-      }
-      .price-cards {
-        flex-direction: column;
-        gap: 28px;
-        margin-bottom: 5%;
-      }
-      .price-card {
-        width: 70%;
-        margin: 0 auto;
-      }
-      .price-card-title {
-        font-size: 25px;
-        margin-bottom: 10px;
-      }
-      .price-card-descr {
-        font-size: 16px;
-        margin-bottom: 20px;
-      }
-      .price-card-sum {
-        font-size: 16px;
-      }
-      .price-card-sum span {
-        font-size: 35px;
-      }
-      .exchange-content {
-        flex-direction: column;
-      }
-      .exchange-content-img{
-        text-align: center;
-      }
-      .exchange-content-img img {
-        max-width: 80%;
-    }
- 
-      .exchange-content-text__title {
-        font-size: 25px;
-      }
- 
-      .exchange-content-text__list-item {
-        font-size: 16px;
-      }
-.steps h2,
-.cost-settings h2{
+  .exchange-content-text__title {
+    font-size: 25px;
+  }
+
+  .exchange-content-text__list-item {
+    font-size: 16px;
+  }
+  .main,
+  .tools-cards,
+  .accounting,
+  .price,
+  .exchange,
+  .steps,
+  .cost-settings,
+  .system-adm {
+    overflow: hidden;
+  }
+}
+@media (min-width: 575px) and (max-width: 767px) {
+  .tools-card {
+    max-width: 45%;
+    padding: 24px 10px;
+  }
+  .tools-card-descr {
+    min-height: 157px;
+  }
+  .accounting-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .accounting-card {
+    width: 100%;
+  }
+  .accounting-card-img {
+    margin: 2% 0;
+  }
+  .accounting-card-img img {
+    max-width: 140px;
+  }
+  .accounting-card-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    margin: 40px 10px;
+  }
+
+  .price h2 {
+    text-align: center;
+    margin: 3% 0;
+  }
+  .price-cards {
+    flex-direction: column;
+    gap: 28px;
+    margin-bottom: 5%;
+  }
+  .price-card {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .price-card-title {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .price-card-descr {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .price-card-sum {
+    font-size: 16px;
+  }
+  .price-card-sum span {
+    font-size: 35px;
+  }
+  .exchange-content {
+    flex-direction: column;
+  }
+  .exchange-content-img {
+    text-align: center;
+  }
+  .exchange-content-img img {
+    max-width: 80%;
+  }
+
+  .exchange-content-text__title {
+    font-size: 25px;
+  }
+
+  .exchange-content-text__list-item {
+    font-size: 16px;
+  }
+  .steps h2,
+  .cost-settings h2 {
     margin-bottom: 30px;
+  }
+  .steps-conten-rigt {
+    width: 38%;
+  }
+  .steps-conten-left {
+    width: 55%;
+  }
+  .step-line {
+    margin: 0 10px;
+  }
+  .step-title {
+    font-size: 17px;
+    line-height: 23px;
+    margin-bottom: 5%;
+  }
+  .step-descr {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .system-adm-items {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .system-adm-item {
+    font-size: 14px;
+    width: 75%;
+    margin: 3% auto;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.8) 50%,
+      rgba(255, 255, 255, 0.8) 100%
+    );
+  }
+  .system-adm-content-right {
+    margin-top: 5%;
+    background-position: right;
+    background-size: 756px;
+  }
+  .system-adm-item::before {
+    top: 9px;
+  }
+  .system-adm-item:nth-child(11),
+  .system-adm-item:nth-child(12),
+  .system-adm-item:nth-child(13),
+  .system-adm-item:nth-child(14),
+  .system-adm-item:nth-child(15) {
+    left: 0px;
+  }
+
+  .contact-form h2 {
+    margin-bottom: 60px;
+  }
+  .main,
+  .tools-cards,
+  .accounting,
+  .price,
+  .exchange,
+  .steps,
+  .cost-settings,
+  .system-adm {
+    overflow: hidden;
+  }
 }
-      .steps-conten-rigt {
-        width: 38%;
-      }
-      .steps-conten-left {
-        width: 55%;
-      }
-      .step-line {
-        margin: 0 10px;
-      }
-      .step-title {
-        font-size: 17px;
-        line-height: 23px;
-        margin-bottom: 5%;
-      }
-      .step-descr {
-        font-size: 14px;
-        line-height: 18px;
-      }
+@media (min-width: 401px) and (max-width: 576px) {
+  .accounting-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .accounting-card {
+    width: 100%;
+  }
+  .accounting-card-img {
+    margin: 2% 0;
+  }
+  .accounting-card-img img {
+    max-width: 140px;
+  }
+  .accounting-card-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    margin: 40px 10px;
+  }
 
+  .price h2 {
+    text-align: center;
+    margin: 3% 0;
+  }
+  .price-cards {
+    flex-direction: column;
+    gap: 28px;
+    margin-bottom: 5%;
+  }
+  .price-card {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .price-card-title {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .price-card-descr {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .price-card-sum {
+    font-size: 16px;
+  }
+  .price-card-sum span {
+    font-size: 35px;
+  }
+  .exchange-content {
+    flex-direction: column;
+  }
+  .exchange-content-img {
+    text-align: center;
+  }
+  .exchange-content-img img {
+    max-width: 80%;
+  }
 
+  .exchange-content-text__title {
+    font-size: 25px;
+  }
 
-      .system-adm-items {
-        width: 90%;
-        margin: 0 auto;
-      }
-      .system-adm-item {
-        font-size: 14px;
-        width: 75%;
-        margin: 3% auto;
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 100%);
-      }
-      .system-adm-content-right {
-        margin-top: 5%;
-background-position: right; 
-background-size: 756px;
-   }
-    .system-adm-item::before {
-        top: 9px;
-    }
-    .system-adm-item:nth-child(11),
-    .system-adm-item:nth-child(12),
-    .system-adm-item:nth-child(13),
-    .system-adm-item:nth-child(14),
-    .system-adm-item:nth-child(15) {
-        left: 0px;
-    }
-
-    .contact-form h2{
-        margin-bottom: 60px;
-    }
-}
-@media (min-width: 401px) and (max-width: 576px)  {
-    .accounting-cards {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 16px;
-      }
-      .accounting-card {
-        width: 100%;
-      }
-      .accounting-card-img {
-        margin: 2% 0;
-      }
-      .accounting-card-img img {
-        max-width: 140px;
-      }
-      .accounting-card-text {
-        font-family: "Montserrat", sans-serif;
-        font-size: 16px;
-        margin: 40px 10px;
-      }
-
-      .price h2 {
-        text-align: center;
-        margin: 3% 0;
-      }
-      .price-cards {
-        flex-direction: column;
-        gap: 28px;
-        margin-bottom: 5%;
-      }
-      .price-card {
-        width: 80%;
-        margin: 0 auto;
-      }
-      .price-card-title {
-        font-size: 25px;
-        margin-bottom: 10px;
-      }
-      .price-card-descr {
-        font-size: 16px;
-        margin-bottom: 20px;
-      }
-      .price-card-sum {
-        font-size: 16px;
-      }
-      .price-card-sum span {
-        font-size: 35px;
-      }
-      .exchange-content {
-        flex-direction: column;
-      }
-      .exchange-content-img{
-        text-align: center;
-      }
-      .exchange-content-img img {
-        max-width: 80%;
-    }
- 
-      .exchange-content-text__title {
-        font-size: 25px;
-      }
- 
-      .exchange-content-text__list-item {
-        font-size: 16px;
-      }
-.steps h2,
-.cost-settings h2{
+  .exchange-content-text__list-item {
+    font-size: 16px;
+  }
+  .steps h2,
+  .cost-settings h2 {
     margin-bottom: 30px;
+  }
+  .steps-conten-rigt {
+    width: 38%;
+  }
+  .steps-conten-left {
+    width: 55%;
+  }
+  .step-line {
+    margin: 0 10px;
+  }
+  .step-title {
+    font-size: 17px;
+    line-height: 23px;
+    margin-bottom: 5%;
+  }
+  .step-descr {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .system-adm-items {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .system-adm-item {
+    font-size: 14px;
+    width: 75%;
+    margin: 3% auto;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.8) 50%,
+      rgba(255, 255, 255, 0.8) 100%
+    );
+  }
+  .system-adm-content-right {
+    margin-top: 5%;
+    background-position: right;
+    background-size: 756px;
+  }
+  .system-adm-item::before {
+    top: 9px;
+  }
+  .system-adm-item:nth-child(11),
+  .system-adm-item:nth-child(12),
+  .system-adm-item:nth-child(13),
+  .system-adm-item:nth-child(14),
+  .system-adm-item:nth-child(15) {
+    left: 0px;
+  }
+
+  .contact-form h2 {
+    margin-bottom: 60px;
+  }
+  .main,
+  .tools-cards,
+  .accounting,
+  .price,
+  .exchange,
+  .steps,
+  .cost-settings,
+  .system-adm {
+    overflow: hidden;
+  }
 }
-      .steps-conten-rigt {
-        width: 38%;
-      }
-      .steps-conten-left {
-        width: 55%;
-      }
-      .step-line {
-        margin: 0 10px;
-      }
-      .step-title {
-        font-size: 17px;
-        line-height: 23px;
-        margin-bottom: 5%;
-      }
-      .step-descr {
-        font-size: 14px;
-        line-height: 18px;
-      }
+@media (min-width: 100px) and (max-width: 400px) {
+  .accounting-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .accounting-card {
+    width: 100%;
+  }
+  .accounting-card-img {
+    margin: 2% 0;
+  }
+  .accounting-card-img img {
+    max-width: 140px;
+  }
+  .accounting-card-text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    margin: 40px 10px;
+  }
 
+  .price h2 {
+    text-align: center;
+    margin: 3% 0;
+  }
+  .price-cards {
+    flex-direction: column;
+    gap: 28px;
+    margin-bottom: 5%;
+  }
+  .price-card {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .price-card-title {
+    font-size: 21px;
+    margin-bottom: 10px;
+  }
+  .price-card-descr {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .price-card-sum {
+    font-size: 16px;
+  }
+  .price-card-sum span {
+    font-size: 35px;
+  }
+  .exchange-content {
+    flex-direction: column;
+  }
+  .exchange-content-img {
+    text-align: center;
+  }
+  .exchange-content-img img {
+    max-width: 80%;
+  }
 
+  .exchange-content-text__title {
+    font-size: 25px;
+  }
 
-      .system-adm-items {
-        width: 90%;
-        margin: 0 auto;
-      }
-      .system-adm-item {
-        font-size: 14px;
-        width: 75%;
-        margin: 3% auto;
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 100%);
-      }
-      .system-adm-content-right {
-        margin-top: 5%;
-background-position: right; 
-background-size: 756px;
-   }
-    .system-adm-item::before {
-        top: 9px;
-    }
-    .system-adm-item:nth-child(11),
-    .system-adm-item:nth-child(12),
-    .system-adm-item:nth-child(13),
-    .system-adm-item:nth-child(14),
-    .system-adm-item:nth-child(15) {
-        left: 0px;
-    }
-
-    .contact-form h2{
-        margin-bottom: 60px;
-    }
-}
-@media (min-width: 100px) and (max-width: 400px)  {
-    .accounting-cards {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 16px;
-      }
-      .accounting-card {
-        width: 100%;
-      }
-      .accounting-card-img {
-        margin: 2% 0;
-      }
-      .accounting-card-img img {
-        max-width: 140px;
-      }
-      .accounting-card-text {
-        font-family: "Montserrat", sans-serif;
-        font-size: 16px;
-        margin: 40px 10px;
-      }
-
-      .price h2 {
-        text-align: center;
-        margin: 3% 0;
-      }
-      .price-cards {
-        flex-direction: column;
-        gap: 28px;
-        margin-bottom: 5%;
-      }
-      .price-card {
-        width: 80%;
-        margin: 0 auto;
-      }
-      .price-card-title {
-        font-size: 21px;
-        margin-bottom: 10px;
-      }
-      .price-card-descr {
-        font-size: 16px;
-        margin-bottom: 20px;
-      }
-      .price-card-sum {
-        font-size: 16px;
-      }
-      .price-card-sum span {
-        font-size: 35px;
-      }
-      .exchange-content {
-        flex-direction: column;
-      }
-      .exchange-content-img{
-        text-align: center;
-      }
-      .exchange-content-img img {
-        max-width: 80%;
-    }
- 
-      .exchange-content-text__title {
-        font-size: 25px;
-      }
- 
-      .exchange-content-text__list-item {
-        font-size: 16px;
-      }
-.steps h2,
-.cost-settings h2{
+  .exchange-content-text__list-item {
+    font-size: 16px;
+  }
+  .steps h2,
+  .cost-settings h2 {
     margin-bottom: 30px;
-}
-      .steps-conten-rigt {
-        width: 38%;
-      }
-      .steps-conten-left {
-        width: 55%;
-      }
-      .step-line {
-        margin: 0 10px;
-      }
-      .step-title {
-        font-size: 16px;
-        line-height: 23px;
-        margin-bottom: 5%;
-      }
-      .step-descr {
-        font-size: 12px;
-        line-height: 18px;
-      }
+  }
+  .steps-conten-rigt {
+    width: 38%;
+  }
+  .steps-conten-left {
+    width: 55%;
+  }
+  .step-line {
+    margin: 0 10px;
+  }
+  .step-title {
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 5%;
+  }
+  .step-descr {
+    font-size: 12px;
+    line-height: 18px;
+  }
 
+  .system-adm-items {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .system-adm-item {
+    font-size: 14px;
+    width: 75%;
+    margin: 3% auto;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.8) 50%,
+      rgba(255, 255, 255, 0.8) 100%
+    );
+  }
+  .system-adm-content-right {
+    margin-top: 5%;
+    background-position: right;
+    background-size: 756px;
+  }
+  .system-adm-item::before {
+    top: 9px;
+  }
+  .system-adm-item:nth-child(11),
+  .system-adm-item:nth-child(12),
+  .system-adm-item:nth-child(13),
+  .system-adm-item:nth-child(14),
+  .system-adm-item:nth-child(15) {
+    left: 0px;
+  }
 
-
-      .system-adm-items {
-        width: 90%;
-        margin: 0 auto;
-      }
-      .system-adm-item {
-        font-size: 14px;
-        width: 75%;
-        margin: 3% auto;
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0.8) 100%);
-      }
-      .system-adm-content-right {
-        margin-top: 5%;
-background-position: right; 
-background-size: 756px;
-   }
-    .system-adm-item::before {
-        top: 9px;
-    }
-    .system-adm-item:nth-child(11),
-    .system-adm-item:nth-child(12),
-    .system-adm-item:nth-child(13),
-    .system-adm-item:nth-child(14),
-    .system-adm-item:nth-child(15) {
-        left: 0px;
-    }
-
-    .contact-form h2{
-        margin-bottom: 60px;
-    }
+  .contact-form h2 {
+    margin-bottom: 60px;
+  }
+  .main,
+  .tools-cards,
+  .accounting,
+  .price,
+  .exchange,
+  .steps,
+  .cost-settings,
+  .system-adm {
+    overflow: hidden;
+  }
 }

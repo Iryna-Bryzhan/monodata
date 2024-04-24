@@ -6,7 +6,7 @@
     <title>Monodata</title>
 
     <link rel="stylesheet" href="rent.css" />
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../style.css" />
     <!-- Шрифт 1 -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -31,31 +31,60 @@
       rel="stylesheet"
     />
 
-        <!-- aos.css -->
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- aos.css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
+    <meta
+      name="description"
+      content="Monodata - автоматизація вашого бізнесу"
+    />
 
-    <script src="index.js" defer></script>
+    <meta content="200" property="og:image:height" />
+    <meta content="200" property="og:image:width" />
+    <meta content="website" property="og:type" />
+    <meta name="robots" content="index, follow" />
+
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Monodata" />
+    <meta
+      property="og:description"
+      content="Monodata - автоматизація вашого бізнесу"
+    />
+
+    <link
+      rel="shortcut icon"
+      href="../img/monodata-logo.png"
+      type="image/x-icon"
+    />
+
+    <script src="/code/index.js" defer></script>
   </head>
   <body>
     <section class="main">
       <header class="fixed-header">
-        <nav class="menu ">
+        <nav class="menu">
           <div class="logo">
             <a href="/">
-                <img class="logo-img" src="../img/monodata-logo.png" alt="monodata-logo" />
+              <img
+                class="logo-img"
+                src="../img/monodata-logo.png"
+                alt="monodata-logo"
+              />
             </a>
           </div>
           <ul class="nav-menu">
             <li class="nav-menu-item"><a href="../index.html">Головна</a></li>
-            <li class="nav-menu-item"><a href="../page_rent/rent.html">Оренда серверів</a></li>
-            <li class="nav-menu-item"><a href="../page_tools/tools.html">Інструменти</a></li>
+            <li class="nav-menu-item">
+              <a href="../page_rent/rent.html">Оренда серверів</a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="../page_tools/tools.html">Інструменти</a>
+            </li>
           </ul>
           <div class="menu-button">
             <a href="#contact-form" class="button">Замовити</a>
           </div>
         </nav>
-
 
         <nav class="header__nav nav-bar">
           <div class="toggle-menu">
@@ -65,179 +94,222 @@
           </div>
           <ul class="nav-list">
             <li class="nav-list-item"><a href="/">Головна</a></li>
-            <li class="nav-list-item"><a href="/page_rent/rent.html">Оренда серверів</a></li>
+            <li class="nav-list-item">
+              <a href="/page_rent/rent.html">Оренда серверів</a>
+            </li>
             <li class="nav-list-item">
               <a href="/page_tools/tools.html">Інструменти</a>
             </li>
-
           </ul>
-          <a href="#contact-form" class="nav-list-item-button button">Замовити</a>
-
+          <a href="#contact-form" class="nav-list-item-button button"
+            >Замовити</a
+          >
         </nav>
-
-
       </header>
 
       <div class="main-content rent-main-content conteiner">
         <div class="main-content-left rent-main-content-left">
-          <h1 data-aos="fade-left" data-aos-duration="600">Оренда серверних<br />
+          <h1 data-aos="fade-left" data-aos-duration="600">
+            Оренда серверних<br />
             ресурсів
           </h1>
-          
+
           <div class="main-content-button">
             <a href="#contact-form" class="button">Замовити</a>
           </div>
         </div>
-        <div class="main-content-right"  data-aos="fade-down" data-aos-duration="1000">
+        <div
+          class="main-content-right"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+        >
           <img src="../img/211.png" alt="main-content-photo" />
         </div>
       </div>
     </section>
 
     <section class="server conteiner">
-        <div class="server-cards">
-          <div class="server-card" data-aos="zoom-in" data-aos-duration="500" >
-              <div class="server-card-img">
-                  <img src="../img/232-01.png" alt="Віртуальні сервери" />
-                </div>
-            <div class="server-card-text">
-              <div class="server-card-title">Віртуальні сервери</div>
-              <div class="server-card-descr">
-                Впровадження та супровід програмного забезпечення для реалізації
-                товарів або послуг через інтернет магазини, ведення
-                бухгалтерського обліку
-              </div>
+      <div class="server-cards">
+        <div class="server-card" data-aos="zoom-in" data-aos-duration="500">
+          <div class="server-card-img">
+            <img src="../img/232-01.png" alt="Віртуальні сервери" />
+          </div>
+          <div class="server-card-text">
+            <div class="server-card-title">Віртуальні сервери</div>
+            <div class="server-card-descr">
+              Впровадження та супровід програмного забезпечення для реалізації
+              товарів або послуг через інтернет магазини, ведення
+              бухгалтерського обліку
             </div>
           </div>
+        </div>
 
-          <div class="server-card" data-aos="zoom-in" data-aos-duration="700">
-            <div class="server-card-img">
-                <img src="../img/232-05.png" alt="Виділені сервери" />
-              </div>
+        <div class="server-card" data-aos="zoom-in" data-aos-duration="700">
+          <div class="server-card-img">
+            <img src="../img/232-05.png" alt="Виділені сервери" />
+          </div>
           <div class="server-card-text">
             <div class="server-card-title">Виділені сервери</div>
             <div class="server-card-descr">
-                Користуйтеся IT-інфраструктурою на 100% із виділеними серверами. Оберіть конфігурацію та налаштуйте сервер, щоб ефективно працювати з будь-якими проектами.
+              Користуйтеся IT-інфраструктурою на 100% із виділеними серверами.
+              Оберіть конфігурацію та налаштуйте сервер, щоб ефективно працювати
+              з будь-якими проектами.
             </div>
           </div>
         </div>
 
         <div class="server-card" data-aos="zoom-in" data-aos-duration="900">
-            <div class="server-card-img">
-                <img src="../img/232-02.png" alt="Фізичні сервери" />
-              </div>
+          <div class="server-card-img">
+            <img src="../img/232-02.png" alt="Фізичні сервери" />
+          </div>
           <div class="server-card-text">
             <div class="server-card-title">Фізичні сервери</div>
             <div class="server-card-descr">
-                Широкий вибір конфігурацій серверів, які можуть бути налаштовані під ваші потреби, залежно від обсягу даних та кількості користувачів.
+              Широкий вибір конфігурацій серверів, які можуть бути налаштовані
+              під ваші потреби, залежно від обсягу даних та кількості
+              користувачів.
             </div>
           </div>
         </div>
-  
-        </div>
-      </section>
+      </div>
+    </section>
 
-      <section id="contact-form" class="contact-form conteiner">
-        <h2>Замовте сервер</h2>
-        <form id="form-req" class="form" action="">
-          <div class="form-inputs">
+    <section id="contact-form" class="contact-form conteiner">
+      <h2>Замовте сервер</h2>
+      <form id="form-req" class="form" action="form-handler.php" method="post">
+        <div class="form-inputs">
           <div class="input-contact">
             <div class="input">
               <label for="name">Ім’я <span>*</span></label>
-              <input id="name" type="text" placeholder="Ваше ім’я" required>
-      
+              <input id="name" type="text" placeholder="Ваше ім’я" />
+              <div class="error" id="name-error"></div>
             </div>
             <div class="input">
-              <label for="sername">Прізвище <span>*</span></label>
-              <input id="sername" type="text" placeholder="Ваше прізвище" required>
-      
+              <label for="surname">Прізвище <span>*</span></label>
+              <input id="surname" type="text" placeholder="Ваше прізвище" />
+              <div class="error" id="surname-error"></div>
             </div>
             <div class="input">
               <label for="phone">Номер телефону <span>*</span></label>
-              <input id="phone" type="text" placeholder="Ваш контактний номер телефону" required>
-            
+              <input
+                id="phone"
+                type="text"
+                placeholder="Ваш контактний номер телефону"
+              />
+              <div class="error" id="phone-error"></div>
             </div>
-  
           </div>
-        <div class="input-text">
-          <label for="req">Коротко опишіть свій запит</label>
-          <textarea name="" id="req" cols="30" rows="10" placeholder="Коротко опишіть свій запит у цьому полі"></textarea>
+          <div class="input-text">
+            <label for="message">Коротко опишіть свій запит</label>
+            <textarea
+              name=""
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Коротко опишіть свій запит у цьому полі"
+            ></textarea>
+          </div>
         </div>
-      </div>
         <div class="form-button">
-          <button class="button">Надіслати запит</button>
+          <button class="button" type="submit">Надіслати запит</button>
         </div>
-        </form>
-      </section>
+      </form>
+    </section>
+
+    <div class="modal-success">
+      <div class="success-content">
+        <div class="success-icon">
+          <img src="../img/free-icon-success-11433360.png" alt="success" />
+        </div>
+        <div class="success-text">Дякуємо за заявку!</div>
+      </div>
+    </div>
+
+    <div class="modal-error">
+      <div class="error-content">
+        <div class="error-icon">
+          <img src="../img/free-icon-cross-6711656 (1).png" alt="error" />
+        </div>
+        <div class="error-text">На жаль, сталася помилка!</div>
+      </div>
+    </div>
 
     <footer class="footer">
-        <div class="footer-content conteiner">
-            <div class="footer-content-logo">
-                <div class="logo">
-                  <a href="/">
-                    <img src="../img/monodata-logo.png" alt="monodata-logo" />
-
-                  </a>
-                  </div>
-                  <p>Monodata - оренда серверних ресурсів для автоматизації вашого бізнесу!</p>
-                  <div class="footer-content-social">
-                    <div class="social-icons">
-                    <div class="social-icon">
-                        <a href="">
-                            <img src="../img/InstagramLogo.png" alt="InstagramLogo">
-                        </a> 
-                    </div>
-                    <div class="social-icon">
-                        <a href="">
-                            <img src="../img/TwitterLogo.png" alt="TwitterLogo">
-                        </a>
-
-                    </div>
-                    <div class="social-icon">
-                        <a href="">
-                            <img src="../img/WhatsappLogo.png" alt="WhatsappLogo">
-                        </a>
-                   
-                    </div>
-                </div>
-                  </div>
+      <div class="footer-content conteiner">
+        <div class="footer-content-logo">
+          <div class="logo">
+            <a href="/">
+              <img src="../img/monodata-logo.png" alt="monodata-logo" />
+            </a>
+          </div>
+          <p>
+            Monodata - оренда серверних ресурсів для автоматизації вашого
+            бізнесу!
+          </p>
+          <div class="footer-content-social">
+            <div class="social-icons">
+              <div class="social-icon">
+                <a href="">
+                  <img src="../img/InstagramLogo.png" alt="InstagramLogo" />
+                </a>
+              </div>
+              <div class="social-icon">
+                <a href="">
+                  <img src="../img/TwitterLogo.png" alt="TwitterLogo" />
+                </a>
+              </div>
+              <div class="social-icon">
+                <a href="">
+                  <img src="../img/WhatsappLogo.png" alt="WhatsappLogo" />
+                </a>
+              </div>
             </div>
-            <div class="footer-content-main">
-            <nav class="footer-menu">
-                <p class="footer-menu-title">Меню</p>
-                <ul class="nav-menu-footer">
-                  <li class="nav-menu-item"><a href="../index.html">Головна</a></li>
-                  <li class="nav-menu-item"><a href="./rent.html">Оренда серверів</a></li>
-                  <li class="nav-menu-item"><a href="../page_tools/tools.html">Інструменти</a></li>
-                </ul>
-              </nav>
+          </div>
+        </div>
+        <div class="footer-content-main">
+          <nav class="footer-menu">
+            <p class="footer-menu-title">Меню</p>
+            <ul class="nav-menu-footer">
+              <li class="nav-menu-item"><a href="../index.html">Головна</a></li>
+              <li class="nav-menu-item">
+                <a href="./rent.html">Оренда серверів</a>
+              </li>
+              <li class="nav-menu-item">
+                <a href="../page_tools/tools.html">Інструменти</a>
+              </li>
+            </ul>
+          </nav>
 
-              <div class="contacts">
-                <p class="footer-menu-title">Контакти</p>
-                <div class="location">
-                    <img src="../img/MapPin.png" alt="MapPin">
-                    <div class="adress">Україна, м. Київ, <br>вул. Бессарабська, 41-б</div>
-                </div>
-             
-              <div class="phone">
-                <img src="../img/phone.png" alt="MapPin">
-                <a href="tel:+000000000000000">+000000000000000</a>
+          <div class="contacts">
+            <p class="footer-menu-title">Контакти</p>
+            <div class="location">
+              <img src="../img/MapPin.png" alt="MapPin" />
+              <div class="adress">
+                Україна, м. Київ, <br />вул. Бессарабська, 41-б
+              </div>
+            </div>
+
+            <div class="phone">
+              <img src="../img/phone.png" alt="MapPin" />
+              <a href="tel:+000000000000000">+000000000000000</a>
             </div>
             <div class="mail">
-                <img src="../img/Envelope.png" alt="MapPin">
-                <a href="mailto:оооооооооо@gmail.com">оооооооооо@gmail.com</a>
+              <img src="../img/Envelope.png" alt="MapPin" />
+              <a href="mailto:оооооооооо@gmail.com">оооооооооо@gmail.com</a>
             </div>
+          </div>
         </div>
-    </div>
-    </div>
-        <p class="footer-rights">© 2023 Всі права захищені.</p>
+      </div>
+      <p class="footer-rights">© 2023 Всі права захищені.</p>
     </footer>
 
-       <!-- aos.js -->
-       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./index.js"></script>
 
-       <script>
-         AOS.init();
-       </script>
+    <!-- aos.js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

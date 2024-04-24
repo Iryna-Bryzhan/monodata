@@ -1,0 +1,8 @@
+.develop {
+  padding: 25% 5%;
+}
+@media (min-width: 100px) and (max-width: 400px) {
+  .develop {
+    padding: 60% 5%;
+  }
+}
